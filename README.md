@@ -1,4 +1,6 @@
-•	To set up a Python development environment, first create a virtual environment using python -m venv .venv in your project root, and activate it (source .venv/bin/activate for Linux/macOS or .venv\Scripts\activate for Windows). 
-•	Then install your dependencies and save them with pip freeze > requirements.txt. Make sure to add .venv/ to your .gitignore to avoid committing virtual environment files. Organize your project with folders like src/, tests/, notebooks/, and scripts/, and use .vscode/settings.json to configure your Python interpreter if you’re using VS Code.
-•	Initialize a Git repository with git init, make your first commit, and push it to GitHub. Set up CI/CD using GitHub Actions by creating a .github/workflows/ci.yml file. This file should define a workflow that installs dependencies, runs tests (e.g., with unittest), and verifies the Python version on every push or pull request. This setup ensures your codebase is consistent, testable, and ready for collaboration or deployment.
+A.	To set up a Python development environment, first create a virtual environment using python -m venv .venv in your project root, and activate it (source .venv/bin/activate for Linux/macOS or .venv\Scripts\activate for Windows). 
+
+B.	Then install your dependencies and save them with pip freeze > requirements.txt. Make sure to add .venv/ to your .gitignore to avoid committing virtual environment files. Organize your project with folders like src/, tests/, notebooks/, and scripts/, and use .vscode/settings.json to configure your Python interpreter if you’re using VS Code.
+
+
 
