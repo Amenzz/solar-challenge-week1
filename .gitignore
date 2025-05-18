@@ -1,6 +1,7 @@
 .venv
 # Ignore all files in data/raw but keep folder structure
 data/raw/*
-
+data/cleaned/*
+data
 
 
